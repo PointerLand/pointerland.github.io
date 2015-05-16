@@ -60,8 +60,6 @@ table {
 }
 
 
-
-
 @font-face {
   font-family: 'NotCourierSans-Regular';
   src: url('fonts/notcouriersans-webfont.eot');
@@ -97,6 +95,10 @@ a {
 	color: inherit;
 }
 
+a:hover {
+    color: #FFA033;
+}
+
 h1 {
 	font-size: 5rem;
 	padding: 2rem;
@@ -106,6 +108,11 @@ h1 {
 .row h1 {
 	width: 75%;
 	display: inline-block;
+}
+
+.row h4 {
+    font-style: italic;
+	padding: 2rem;
 }
 
 .row div {
